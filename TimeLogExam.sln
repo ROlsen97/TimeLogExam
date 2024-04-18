@@ -3,13 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{B4EA292F-8FFC-41A6-B11A-966456CE4DBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{B4EA292F-8FFC-41A6-B11A-966456CE4DBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{1B8312E8-5C9C-47E6-956C-F7181B23B266}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{1B8312E8-5C9C-47E6-956C-F7181B23B266}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{5BB1291C-C1F7-4350-8818-6BA728FF06EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{5BB1291C-C1F7-4350-8818-6BA728FF06EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeLogAPI", "TimeLogAPI\TimeLogAPI.csproj", "{B9A5D52D-9B12-41BB-9031-F91BDDF9640A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeLogAPI", "TimeLogAPI\TimeLogAPI.csproj", "{B9A5D52D-9B12-41BB-9031-F91BDDF9640A}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "my-app", "my-app\", "{89D9B79C-2FA3-4AC5-BF8E-16B2BE066D86}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55743"
+		Debug.AspNetCompiler.PhysicalPath = "my-app\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55743\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55743"
+		Release.AspNetCompiler.PhysicalPath = "my-app\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55743\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55743"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +53,10 @@ Global
 		{B9A5D52D-9B12-41BB-9031-F91BDDF9640A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9A5D52D-9B12-41BB-9031-F91BDDF9640A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9A5D52D-9B12-41BB-9031-F91BDDF9640A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D9B79C-2FA3-4AC5-BF8E-16B2BE066D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D9B79C-2FA3-4AC5-BF8E-16B2BE066D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D9B79C-2FA3-4AC5-BF8E-16B2BE066D86}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D9B79C-2FA3-4AC5-BF8E-16B2BE066D86}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
